@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=Node
+comment0.text=\n\ A\ node\ within\ a\ decision\ tree.\n\ A\ leaf\ node\ is\ signified\ by\ left\ and\ right\ subtrees\n\ with\ the\ value\ -1.\n\ \n\ Only\ leaf\ nodes\ have\ a\ non-zero\ score.\n\n\ @author\ David\ J.\ Barnes\n\ @version\ 2020.03.03\n
+comment1.params=nodeNumber\ value\ left\ right
+comment1.target=Node(int,\ java.lang.String,\ int,\ int)
+comment1.text=\n\ A\ non-leaf\ node.\n\ @param\ nodeNumber\ The\ number\ of\ the\ node.\n\ @param\ value\ The\ feature's\ value.\n\ @param\ left\ Left\ subtree\ node\ number.\n\ @param\ right\ Right\ subtree\ node\ number.\n
+comment2.params=nodeNumber
+comment2.target=Node(int)
+comment2.text=\n\ A\ leaf\ node.\n\ @param\ nodeNumber\ The\ number\ of\ the\ node.\n
+comment3.params=nodeNumber\ value\ left\ right\ score
+comment3.target=Node(int,\ java.lang.String,\ int,\ int,\ int)
+comment3.text=\n\ A\ non-leaf\ node.\n\ @param\ nodeNumber\ The\ number\ of\ the\ node.\n\ @param\ value\ The\ feature's\ value.\n\ @param\ left\ Left\ subtree\ node\ number.\n\ @param\ right\ Right\ subtree\ node\ number.\n\ @param\ score\ The\ node's\ score.\n
+comment4.params=
+comment4.target=boolean\ isLeaf()
+comment4.text=\n\ Whether\ this\ node\ is\ a\ leaf.\n\ @return\ true\ if\ the\ node\ is\ a\ leaf.\n
+comment5.params=
+comment5.target=int\ getScore()
+comment5.text=\n\ Return\ the\ node's\ score.\n\ This\ will\ be\ non-zero\ only\ for\ leaves.\n\ @return\ the\ score.\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment7.params=other
+comment7.target=int\ compareTo(Node)
+numComments=8
